@@ -100,7 +100,7 @@ Make sure all prerequisites are installed and properly configured.
 
 ### Links
 
-- GitHub: [Add live site URL here](https://github.com/kate-sarant/dailyNote.git)
+- GitHub: [repo](https://github.com/kate-sarant/dailyNote.git)
 
 
 
