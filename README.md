@@ -33,7 +33,7 @@ Users should be able to:
 
 - Clone the repository:
 
-Copy code
+
 
 ```bash
 git clone https://github.com/kate-sarant/dailyNote.git
@@ -43,7 +43,7 @@ cd dailyNote
 
 - Install dependencies:
 
-Copy code
+
 ```bash
 npm install
 composer install
@@ -51,9 +51,8 @@ composer install
 ```
 - Update the `.env`file with your database credentials:
 
-Copy code
 
-```
+```bash
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1 
 DB_PORT=3306
@@ -62,11 +61,9 @@ DB_USERNAME= your_username
 DB_PASSWORD= your_password
 
 
-Run database migrations:
-
 ```
-Copy code
 
+Run database migrations:
 ```bash
 php artisan migrate
 
@@ -74,7 +71,7 @@ php artisan migrate
 Seed the database with dummy data:
 
 ```
-Copy code
+
 
 ```bash
 
@@ -85,7 +82,7 @@ php artisan db:seed --class=DatabaseSeeder
 - Start the local development server:
 
 ```bash
-Copy code
+
 php artisan serve
 ```
 
