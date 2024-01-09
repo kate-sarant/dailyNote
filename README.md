@@ -34,15 +34,12 @@ Users should be able to:
 - Clone the repository:
 
 
-
 ```bash
 git clone https://github.com/kate-sarant/dailyNote.git
 cd dailyNote
 ```
 
-
 - Install dependencies:
-
 
 ```bash
 npm install
@@ -64,14 +61,12 @@ DB_PASSWORD= your_password
 ```
 
 Run database migrations:
+
 ```bash
 php artisan migrate
 
-
-Seed the database with dummy data:
-
 ```
-
+Seed the database with dummy data:
 
 ```bash
 
